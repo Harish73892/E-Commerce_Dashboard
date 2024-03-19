@@ -1,0 +1,148 @@
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul a{
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background: skyblue;
+}
+
+
+.footer {
+  background-color: skyblue;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.signup-div {
+      padding-left: 38%;
+        margin-top: 5%;
+}
+
+.product {
+      padding-left: 38%;
+        margin-top: 3%;
+}
+
+.register{
+  padding-left: 85px;
+}
+
+.add-product-h1 {
+  padding-left: 70px;
+}
+
+.update-product-h1{
+  padding-left: 45px;
+}
+
+.h1-login{
+  padding-left: 110px;
+}
+
+.login{
+  padding-left: 38%;
+  margin-top: 7%;
+}
+
+.inbox {
+  display: block;
+  padding: 10px;
+  margin: 22px;
+  width: 258px;
+  border: 2px solid black;
+}
+
+.signupBotton{
+      padding: 14px;
+        margin-left: 108px;
+        margin-top: 16px;
+        width: 110px;
+        background-color: skyblue;
+        cursor: pointer;
+      
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+    float: left;
+    width: 50px;
+    margin-top: 3px;
+    border-radius: 27px;
+    margin-left: 10px;
+}
+
+.span-input {
+  margin-left: 30px;
+  margin-top: -24px;
+  color: red;
+  display: block;
+}
+
+.product-list{
+  text-align: center;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 2px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list ul{
+  margin: -2px;
+}
+
+.seach-box{
+  padding: 8px;
+  width: 362px;
+  margin: 8px;
+  border: 2px solid skyblue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
